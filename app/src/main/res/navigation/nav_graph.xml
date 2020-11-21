@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_camera">
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="es.miapp.pm.navigationviewcero2.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="es.miapp.pm.navigationviewcero2.SendFragment"
+        android:label="fragment_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="es.miapp.pm.navigationviewcero2.GalaleriaFragment"
+        android:label="fragment_galaleria"
+        tools:layout="@layout/fragment_galaleria" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="es.miapp.pm.navigationviewcero2.ShareFragment"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_manage"
+        android:name="es.miapp.pm.navigationviewcero2.ToolsFragment"
+        android:label="fragment_tools"
+        tools:layout="@layout/fragment_tools" />
+</navigation>
